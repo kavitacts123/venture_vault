@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*, ::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+}
+h1, h2, h3, h5{
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+}
+h1 {
+    font-size: 75px;
+}
+h2 {
+    font-size: 3.2rem;
+}
+h3 {
+    font-size: 23px;
+}
+h4{
+    font-size: 26px;
+}
+.py_50 {
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+}
+header{
+    background-color: #F5F9FF;
+}
+.navbar {
+    background-color: #F5F9FF;
+    border-bottom: 1px solid #D8D8D8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header1{
+    margin-right: 20px;
+}
+.header2 {
+    margin-left: auto;
+}
+.nav-heading{
+    width: 100%;
+    display: flex;
+}
+.nav-brand{
+    padding: 1rem 1rem;
+}
+.navbar a.navbar-brand {
+    display: inline-block;
+}
+.nav-img img {
+    height: 80px;
+    object-fit: cover;
+} 
+button.carousel-control-prev, button.carousel-control-next {
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #a30d33;
+    opacity: 1;
+    color: #fff;
+    left: 15px;
+}
+button.carousel-control-next {
+    left: auto;
+    right: 15px;
+}
+.banner {
+    background: url(../images/bg_img.png) no-repeat center;
+    background-size: cover;
+    padding-top: 25px;
+}
+.baner_text {
+    font-size: 35px;
+}
+.banner4 img.img-fluid {
+    max-width: 85%;
+}
+h2.text_shape {
+    margin-bottom: 2.1rem;
+}
+h2.venture_shape:before {
+    content: '';
+    position: absolute;
+    width: 36.25rem;
+    height: 23.875rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -10.375rem;
+    background: url(../images/heading-shape.png) no-repeat center;
+    background-size: contain;
+    z-index: -1;
+}
+
+span {
+    color: #A30D33;
+    display: block;
+    font-weight: bold;
+}
+.banner3 p {
+    text-align: left;
+}
+.banner4 {
+    display: flex;
+    align-items: center;
+}
+.mask-img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* banner */
+
+/* about */
+.about1 {
+    text-align: center;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about span {
+    display: block;
+    color: #A30D33;
+    font-weight: bold;
+}
+.about1 img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-line{
+    margin-bottom: 1.8rem;
+    margin-top: 1.8rem;
+}
+h2.text_shape:before {
+    content: '';
+    position: absolute;
+    width: 32.25rem;
+    height: 22.875rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -7.375rem;
+    background: url(../images/heading-shape.png) no-repeat center;
+    background-size: contain;
+    z-index: -1;
+}
+
+/*about*/
+
+/* venture */
+.venture{
+    background: url(../images/Background-image1.png) no-repeat center;
+    background-size: cover;
+}
+.venture2 {
+    text-align: left;
+   
+}
+.venture h2 span {
+    display: inline;
+    color: #A30D33;
+    font-weight: bold;
+}
+.venture_mb{
+    margin-bottom: 30px;
+}
+span.venture_shape:before {
+    content: '';
+    position: absolute;
+    width: 16.875rem;
+    height: 5.875rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -4.375px;
+    background: url(../images/Vector.png) no-repeat center;
+    background-size: contain;
+}
+
+/* venture */
+
+/* mask*/
+.mask {
+    background-color: #A30D33;
+    color: white;
+    background-image: url(../images/lines.png);
+}
+
+.mask1 {
+    padding-top: 160px;
+    padding-bottom: 50px;
+}
+.mask1 p {
+    max-width: 96%;
+    text-align: left;
+    padding-top: 20px;
+}
+/* mask */
+
+/* segment */
+.segment{
+    background: url(../images/Background-image2.png) no-repeat center;
+    background-size: cover;
+}
+.segment h2 {
+    margin-bottom: 1.2rem;
+}
+
+.segment span {
+    color: rgb(126, 10, 10);
+    display: inline;
+}
+.my_20{ 
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+}
+.segment-body{
+    text-align: left;
+    padding: 1.5rem;
+    background-color: white;
+    height: 100%;;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.segment_font{
+    font-size: 1.2rem;
+}
+
+
+/* list*/
+
+.eco_sec:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80%;
+    height: 100%;
+    background: url(../images/eco-bg.png) no-repeat top right;
+    background-size: cover;
+    z-index: -1;
+}
+.eco_sec img.list-img {
+    position: absolute;
+    top: 53%;
+    transform: translateY(-50%);
+    right: 0;
+    height: 67%;
+    width: 40%;
+    object-fit: contain;
+    object-position: right;
+}
+.list1 span {
+    display: inline;
+    color: #A30D33;
+}
+.list-p{
+    font-size: 67px;
+    margin-bottom: 20px;
+}
+.list-group1 {
+    display: flex;
+    flex-direction: column;
+}
+.list-item {
+    color: #212529;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.list-img{
+    max-width: 100%;
+    height: auto;
+}
+.list_img{
+    border: 0.19rem solid #A30D33; 
+    border-radius: 0.8rem;
+    max-width: 100%;
+}
+::marker {
+    color: #A30D33;
+    font-size: 18px;
+}
+
+
+/*list*/
+
+/* venture-vault*/
+.venture1{
+    background: url(../images/Background-image.png) no-repeat center;
+    background-size: cover;
+}
+.venture-vault {
+    text-align: center;
+    max-width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2.venture_shape {
+    margin-bottom: 2.1rem;
+}
+h2.venture_shape:before {
+    content: '';
+    position: absolute;
+    width: 32.25rem;
+    height: 22.875rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -10.375rem;
+    background: url(../images/heading-shape.png) no-repeat center;
+    background-size: contain;
+    z-index: 0;
+}
+.venture-vault h2 span {
+    display: block;
+    color: #A30D33;
+    font-weight: bold;
+}
+.venture-font{
+    font-size: 36px;
+}
+
+/* footer*/
+
+.footer {
+    background-color: #A30D33;
+    color: white;
+}
+
+.footer1 {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.footer1 h3{
+    margin-bottom: 25px;
+}
+p a {
+    color: white;
+}
+
+p a:hover {
+    color: white;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+.icon1 {
+    background-color: white;
+    height: 3.1rem;
+    width: 3.1rem;
+    margin-right: 1.2rem;
+    padding: 0.5rem 0.4rem;
+    border-radius: 3.2rem;
+}
+
+.link-underline-primary {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer1 h5 {
+    padding: 1rem 1rem;
+}
+
+.icons i {
+    color: #A30D33;
+    font-size: 2.2rem;
+
+}
+.footer_p{
+    margin-bottom: 25px;
+}
+.footer-p{
+    margin-top: 1.2rem;
+    font-style: italic;
+}
+
+/* footer */
+
+
+
+
+@media only screen and (min-width: 1441px) {
+    h1 {
+        font-size: 100px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    h3{
+        font-size: 35px;
+    }
+    h4{
+        font-size: 23px;
+    }
+    body{
+        font-size: 25px;
+    }
+    h2.text_shape:before {
+        width: 33.25rem;
+        height: 20.875rem;
+        top: -5.375rem;
+    }
+    .about1{
+        max-width: 80%;
+    }
+    
+    .banner {
+        padding-top: 65px;
+    }
+    .venture_mb {
+        margin-bottom: 25px;
+    }
+    span.venture_shape:before {
+        width: 30.875rem;
+        height: 6.875rem;
+    }
+    .segment_font {
+        font-size: 25px;
+    }
+    .segment1 h3{
+        font-size: 28px;
+    }
+    .list-item {
+        font-size: 25px;
+    }
+    .eco_sec img.list-img {
+        width: 30%;
+        top: 55%;
+        height: 90%;
+    }
+    .venture-vault {
+        max-width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 1199px) {
+    h1 {
+        font-size: 65px;
+    }
+    h2{
+        font-size: 38px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    h4{
+        font-size: 21px;
+    }
+    p{
+        font-size: 22px;
+    }
+    .banner {
+        padding-top: 50px;
+    }
+    .banner3 .img-fluid {
+        max-width: 35%;
+    }
+    .baner_text {
+        font-size: 28px;
+    }
+    .about1{
+        max-width: 100%;
+    }
+    section.about.py_50 {
+        padding-bottom: 0;
+    }
+    .segment_font {
+        font-size: 22px;
+    }
+    
+    h2.text_shape:before {
+    width: 31.25rem;
+    height: 15.875rem;
+    top: -4.375rem;
+    } 
+
+    h2.venture_shape:before {
+        width: 29.25rem;
+        height: 15.875rem;
+        top: -7.375rem;
+    }
+
+    span.venture_shape:before {
+        width: 14.875rem;
+        height: 4.875rem;
+    }
+    section.venture.py_50 {
+        padding-top: 0;
+    }
+
+    .venture_mb {
+        font-size: 2.8rem;
+    }
+    .mask1 p {
+        max-width: 100%;
+    }
+    .mask1 {
+        padding-top: 80px;
+    }
+    .list-p {
+        font-size: 3rem;
+    }
+    .list-item {
+        font-size: 22px;
+    }
+    .eco_sec:before {
+        width: 100%;
+        height: 100%;
+        background: url(../images/eco-bg.png) no-repeat top right;
+    }
+    .eco_sec img.list-img {
+        height: 46%;
+        width: 35%;
+    }
+    .venture-vault {
+        max-width: 100%;
+    }
+    .footer1 {
+        max-width: 100%;
+    }
+
+}
+@media only screen and (max-width: 991px) {
+    body{
+        font-size: 23px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    .nav-img img {
+        height: 55px;
+    }
+    .banner3 .img-fluid {
+        max-width: 21%;
+    }
+    .banner4{
+        text-align: center;
+    }
+    .banner4 img.img-fluid {
+        max-width: 60%;
+    }
+    .baner_text {
+        font-size: 25px;
+    }
+    h2.text_shape {
+        margin-bottom: 2.1rem;
+    }
+    .banner {
+        padding-top: 50px;
+    }
+    .mask-img {
+        max-width: 75%;
+        height: auto;
+    }
+    .banner5 {
+        text-align: center;
+    }
+    span.venture_shape:before {
+        width: 12.875rem;
+        height: 4.875rem;
+    }
+    .about1 {
+        max-width: 100%;
+    }
+    .segment_font {
+        font-size: 23px;
+    }
+    .mask1 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .venture_mb {
+        font-size: 2.5rem;
+    }
+    .venture2 {
+        margin-top: 30px;
+    }
+    .venture_mb {
+        margin-bottom: 1.2rem;
+    }
+    section.venture.py_50 {
+        padding-top: 0;
+    }
+    section.about.py_50 {
+        padding-bottom: 0;
+    }
+    section.segment.py_50 {
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+    .mask2 {
+        text-align: center;
+    }
+    .mask .py_50 {
+        padding-top: 0;
+    }
+    .list-p {
+        font-size: 2.9rem;
+    }
+    .list-item {
+        font-size: 23px;
+    }
+    .eco_sec:before {
+        width: 100%;
+        height: 100%;
+        background: url(../images/eco-bg.png) no-repeat top left;
+    }
+    .eco_sec img.list-img {
+        position: unset;
+        transform: none;
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+    .venture-vault {
+        max-width: 100%;
+    }
+    h2.text_shape:before {
+        width: 23.25rem;
+        height: 14.875rem;
+        top: -4.375rem;
+    }
+    h5{
+        font-size: 21px;
+    }
+    .footer1 {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    body{
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 56px;
+    }
+    h2{
+        font-size: 38px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .header2 {
+        margin-left: 0;
+    }
+    .nav-img img {
+        height: 52px;
+    }
+    .navbar-brand {
+        margin-right: 4rem;
+    }
+    .banner {
+        padding-top: 20px;
+    }
+    .baner_text {
+        font-size: 38px;
+    }
+    .banner3 .img-fluid {
+        max-width: 45%;
+    }
+    .about1 {
+        max-width: 100%;
+    }
+    h2.text_shape {
+        font-size: 38px;
+    }
+    .img-line {
+        margin-bottom: 0;
+    }
+    .venture_mb {
+        font-size: 38px;
+    }
+    .mask1 {
+        margin-top: 0;
+    }
+    .venture-vault {
+        max-width: 100%;
+    }
+    h2.text_shape:before {
+        width: 19.25rem;
+        height: 23.875rem;
+    }
+    span.venture_shape:before {
+        width: 12.875rem;
+        height: 4.875rem;
+        top: -8.375px;
+    }
+    h2.venture_shape:before {
+        width: 23.25rem;
+        height: 13.875rem;
+        top: -6.375rem;
+    }
+    .segment_font {
+        font-size: 18px;
+    }
+    .list-p {
+        font-size: 38px;
+    }
+    .list-item {
+        font-size: 18px;
+    }
+    .footer1 {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    body{
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 31px;
+    }
+    h2{
+        font-size: 29px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .banner {
+        padding-top: 20px;
+    }
+    .banner3 p {
+        text-align: center;
+    }
+    .baner_text {
+        text-align: center;
+        font-size: 18px;
+    }
+    .banner4 img.img-fluid {
+        max-width: 65%;
+    }
+    .banner3 .img-fluid {
+        max-width: 45%;
+    }
+    .banner3{
+        text-align: center;
+    }
+    .header2 {
+        margin-left: 0;
+    }
+    .navbar-brand {
+        margin-right: 4rem;
+    }
+    .nav-img img {
+        height: 31px;
+    }
+   
+    .header1 {
+        width: 100%;
+    }
+    .about1 {
+        max-width: 100%;
+    }
+    section.about.py_50 {
+        padding-bottom: 1.2rem;
+    }
+    .img-line {
+        margin-bottom: 20px;
+    }
+    .venture_mb {
+        font-size: 29px;
+        margin-top: 20px;
+    }
+    section.venture.py_50 {
+        padding-top: 0;
+    }
+    .mask1 {
+        margin-top: 0;
+    }
+    .mask-img {
+        max-width: 60%;
+        height: auto;
+    }
+    .banner4 {
+        display: flex;
+        text-align: center;
+    }
+    .banner5 {
+        text-align: center;
+    }
+    section.mask.py_50.pb-0 {
+        padding-top: 1.2rem;
+    }
+    .segment_font {
+        font-size: 16px;
+    }
+    section.segment.py_50 {
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+    .segment h2 {
+        margin-bottom: 0;
+    }
+    .venture-vault {
+        max-width: 100%;
+    }
+    h2.text_shape:before {
+        width: 19.25rem;
+        height: 18.875rem;
+        top: -6.375rem;
+    }
+    .list-item {
+        font-size: 16px;
+    }
+    .list-p {
+        font-size: 32px;
+    }
+    span.venture_shape:before {
+        width: 9.875rem;
+        height: 3.875rem;
+        top: -8.375px;
+    }
+    h2.venture_shape:before {
+        width: 16.25rem;
+        height: 8.875rem;
+        top: -4.375rem;
+    }
+    .footer1 {
+        max-width: 100%;
+    }
+    .venture-font {
+        font-size: 26px;
+    }
+    button.carousel-control-prev, button.carousel-control-next {
+        display: none;
+    }
+    .carousel-indicators button {
+        width: 12px !important;
+        height: 12px !important;
+        border: 0 !important;
+    }
+}
+
+
+
+@media (min-width: 576px) {
+.carousel-indicators {
+    display: none;
+}
+}
